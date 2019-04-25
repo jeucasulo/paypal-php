@@ -1,0 +1,54 @@
+jeu 
+equip integração
+ligando pra GENTE poder validar a integração do paypal no seu site 
+
+vi que voce configurou o paypal transparete (ppp) - deu tudo certo? ja conferiu alguma transação? lalala
+mas ainda não encontrei paypal carteira (ec)
+
+podemos fazer a configuração do ec?
+
+
+loja integrada
+
+https://www.niveladordeporcelanato.com.br
+
+----------------------------------------------------------------
+Contato
+
+90 21 + 
+----------------------------------------------------------------
+
+Antunes 37 9 9962 2415  
+----------------------------------------------------------------
+
+
+ABRIR ARQUIVOS ANTES
+COPMO SABER SE O EC E NVP OU REST?
+
+
+paypal.com
+ferramentas
+parcelamento	
+----------------------------------------------------------------
+anotar nome do site, cliente, plataforma, plugins etc
+----------------------------------------------------------------
+1-apresentação
+2-gerar credenciais
+3-formas de pagamento e ativar paypal 
+4-inserir credenciais
+5-testar tudo e conferir parcelamento
+----------------------------------------------------------------
+https://appear.in/jjunior
+1-acessar antes para desativar camera e microfone
+2-pedir pra acessar via chorm
+----------------------------------------------------------------
+
+
+
+
+
+
+developer.paypal.com
+
+
+myapp and credentials

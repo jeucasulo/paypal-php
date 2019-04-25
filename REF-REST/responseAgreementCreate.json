@@ -1,0 +1,1 @@
+{"links":[{"href":"https://www.sandbox.paypal.com/agreements/approve?ba_token=BA-2S398800W6553461R","rel":"approval_url","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/billing-agreements/BA-2S398800W6553461R/agreements","rel":"self","method":"POST"}],"token_id":"BA-2S398800W6553461R"}

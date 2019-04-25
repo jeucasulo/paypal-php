@@ -1,0 +1,1 @@
+{"links":[{"href":"https://www.sandbox.paypal.com/agreements/approve?ba_token=BA-40C50071XP670171M","rel":"approval_url","method":"POST"},{"href":"https://api.sandbox.paypal.com/v1/billing-agreements/BA-40C50071XP670171M/agreements","rel":"self","method":"POST"}],"token_id":"BA-40C50071XP670171M"}

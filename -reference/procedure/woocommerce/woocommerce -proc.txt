@@ -1,0 +1,44 @@
+﻿woocommerce > configurações > pagamento/finalizar
+
+install woocommerce
+woocommerce já vem com payoal mas não recomendamos
+--------------------------------------------------
+produtos > plugin
+plugin > adicionar plugin
+
+instalar o plugin angeleye (ec) - (paypal for woocommerce)
+instalar o plugin paypalplus brasil (ppp)
+instalar o Extra Checkout Fields for Brazil 
+--------------------------------------------------
+woocommerce > configurações > pagamento
+
+
+>>>PayPal Express Checkout  – PayPal Express
+
+desativar o sandbox
+
+user
+password
+
+*minicart é no "hoverzinho" do carrinho
+
+>cart
+>checkout
+---
+checkout display (top both bottom)
+---
+opcional
+entrega
+woocommerce > configurações > entrega > opções de entrega > destino de entrega > radio "forçar entrega..." pra sobrescrever
+---
+
+payment action - sale
+---------------------------------------------------
+ppp
+
+
+woocommerce > configurações > pagamento
+plugin paypalplus brasil
+inserir client id e secret
+
+habilitar modo de depuração

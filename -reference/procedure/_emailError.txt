@@ -1,0 +1,5 @@
+accounts
+create account
+tipo: business
+
+nome, email senha

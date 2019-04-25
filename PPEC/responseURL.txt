@@ -1,0 +1,1 @@
+https://api.sandbox.paypal.com/v1/payments/payment?count=20&start_index=0&sort_by=create_time&sort_order=desc

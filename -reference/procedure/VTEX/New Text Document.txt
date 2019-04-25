@@ -1,0 +1,37 @@
+Login on vtex admin 
+(default: https://{MERCHANT_DOMAIN}.vtexcommercestable.com.br/admin.)
+---
+E-commerce (em cima no centro/esquerda)
+PCI gateway
+Gateway Affiliations
+Add a new Gateway Affiliation (lado direito superior, icone verde com um + dentro)
+*on the "new gateway view" look for paypal plus option 
+
+insert credentials (clientId, secret; userName, passWord, signature)
+
+Save configuration
+
+After save switch to the test/production toogle(test first recomended)
+------------------------------------
+Configure a new Payment condition
+
+Payment Condition (em cima na esquerda)
+add a new Payment Condition (direita em cima icone verde com o + dentro)
+
+*On the new Payment Condition view, select the PaypalPlus
+
+set In cash as default (this is already set on paypal not needing to set it here too)
+
+Select the Affiliation (B) created previously (paypal plus)
+Set the Status as Active
+And finally click on SAVE
+-------------------------------------
+Frontend
+admin
+pci gateway
+portal
+code
+Select the vtex-checkout template (lista da coluna da direita), and include the following parameter:
+• Major: 4 (esquerda), then save the change.
+
+eseprar de 10 a 15 minutos para a atualização fazer efeito

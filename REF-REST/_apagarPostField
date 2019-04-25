@@ -1,0 +1,51 @@
+{
+      "intent": "sale",
+      "application_context":
+      {
+        "shipping_preference":"NO_SHIPPING"  
+      },
+      "payer":
+      {
+        "payment_method": "PAYPAL",
+        "funding_instruments": [
+        {
+          "billing":
+          {
+            "billing_agreement_id": "B-0EY53369PR465210S"
+          }
+        }]
+      },
+      "transactions": [
+      {
+        "amount":
+        {
+          "currency": "BRL",
+          "total": "100.00"
+        },
+        "description": "Payment transaction.",
+        "custom": "Payment custom field.",
+        "note_to_payee": "Note to payee field.",
+        "invoice_number": "1554405972",
+        "item_list":
+        {
+          "items": [
+          {
+            "sku": "skuitemNo1",
+            "name": "ItemNo1",
+            "description": "The item description.",
+            "quantity": "1",
+            "price": "100.00",
+            "currency": "BRL"
+          }]
+        },
+        "payment_options":
+        {
+            "allowed_payment_method":"IMMEDIATE_PAY"
+        }
+      }],
+      "redirect_urls":
+      {
+        "return_url": "https://example.com/return",
+        "cancel_url": "https://example.com/cancel"
+      }
+    }

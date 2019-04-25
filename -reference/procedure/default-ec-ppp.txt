@@ -1,0 +1,40 @@
+paypayl checkout no woocommerce
+sugerir ao cliente que use o o plugin abaixo
+
+"paypal for woocommerce"- angel eye
+
+ps: para alterar o nome do botão deve alterar no codigo fonte
+
+instalar > ativar
+
+
+Checkout Page Display - display in general list...
+
+alterar nome do botão
+\wordpress\wordpress\wp-content\plugins\paypal-for-woocommerce\template\cart
+C:\laragon\www\wordpress\wordpress\wp-content\plugins\paypal-for-woocommerce\template\cart
+
+
+
+--------------------------------------------
+paypalplus
+instalar o plugin paypal plus brasil
+
+caso falte info nas fields instalar o "extra checkout fields" 
+
+
+WooCommerce Extra Checkout Fields for Brazil 
+Installing...
+
+
+checar
+>f12
+>network
+>header
+>post_data
+
+------------------------------
+
+credentials
+developer.paypal.com
+login e password default

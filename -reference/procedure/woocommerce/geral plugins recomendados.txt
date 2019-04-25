@@ -1,0 +1,21 @@
+gerar credenciais
+
+developer.paypal 
+login (canto superior direito(email padrão))
+hover sobre o usuario e clica em Dashboard
+create app
+(o email padrão do merchan estará inserido seguido de -facilitator <email-facilitatir@email.com>"
+clicar em "live" para pegar as credenciais
+
+
+debugar
+f12
+network
+preservelog
+xhr
+(clica no erro)
+header
+
+
+ppp - paypal plus brasil
+ppec - angel  

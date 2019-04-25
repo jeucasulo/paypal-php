@@ -1,0 +1,91 @@
+
+https://developer.paypal.com/docs/api/overview/#make-your-first-call
+
+Criar cliend id e secret 
+
+https://developer.paypal.com/
+
+
+
+
+Client ID
+
+AdYLZtwY8zHLgVLR7uawFMLHXWT-jswUL0jnyZJAIfjjYzsWfR9mxHhKQaAcDR409oZmujTDAh207JJI
+
+Secret
+
+EA1M8eQy2L81475BiOGvH2ioxMe5A7fAGj5oC1ODG5--yd49c4mIab5dwZDoeIuYbvh7w3GznoHTqOjT
+
+1-handshake
+
+
+
+
+
+docs checkout
+api rest api
+
+
+
+Token
+A21AAEbkJI6iSabfsK48UiIdy25d_8PowUgd90p030TKXfBCgSgnWwaUvXcz9w-TDytnC0sVfpAfE4UE4jeFU9SbZhYTdRDDw
+A21AAEbkJI6iSabfsK48UiIdy25d_8PowUgd90p030TKXfBCgSgnWwaUvXcz9w-TDytnC0sVfpAfE4UE4jeFU9SbZhYTdRDDw
+
+
+
+https://developer.paypal.com/docs/api/payments/v1/
+ler pra caralho
+
+
+
+gerou token
+usou pra gerar o pagamento
+pega dados do response do "gerar pagamento" 
+
+
+e executga o pagamento
+
+
+
+
+
+
+
+mission1
+
+fazer um express checkout
+TUDO EM BACKEND
+classe gerar token
+create payment
+pagina pra gerar o botao
+execute payment
+
+
+		$ch = curl_init();
+
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, $postfields);
+
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+		curl_setopt($ch, CURLOPT_VERBOSE, 1);
+		curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+		curl_setopt($ch, CURLOPT_POST, true);
+
+		$run = curl_exec($ch);
+
+		curl_close($ch);
+
+		$patch = json_decode($run, true);
+
+
+
+		///// 
+		gerrar token
+
+				CURLOPT_USERPWD => "$client:$secret",
+				CURLOPT_POSTFIELDS => http_build_query($fields),
+				CURLOPT_HTTPAUTH => CURLAUTH_BASIC);

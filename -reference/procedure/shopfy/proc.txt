@@ -1,0 +1,21 @@
+pagamento alternativo
+
+senha 
+keyword
+paypal2099
+
+addons > paypal
+
+
+
+
+configurar ipn (link esta com renan e cisco)
+
+
+
+
+invalidando cpf iniciado com zero masja foi conversado com a equipe paypal que já esta cuidando disso
+
+-----------------------------------------------------------------------------
+ppp
+www.shopify.com/login?redirect=/admin/authorize_gateway/1052634

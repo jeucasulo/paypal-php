@@ -1,0 +1,1 @@
+{"name":"VALIDATION_ERROR","details":[{"field":"start_date","issue":"Agreement start date is required, should be valid and greater than the current date. Should be consistent with ISO 8601 Format"}],"message":"Invalid request. See details.","information_link":"https://developer.paypal.com/docs/api/payments.billing-agreements#errors","debug_id":"4a979e006a8f2"}
